@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "docker-cicd-service",
   "version": "1.0.0",
   "description": "Production-ready Node.js Express service with Docker and CI/CD",
