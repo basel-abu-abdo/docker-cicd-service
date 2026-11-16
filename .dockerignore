@@ -1,0 +1,32 @@
+﻿# Version control
+.git
+.gitignore
+
+# Dependencies (re-installed inside the image)
+node_modules
+
+# Test artefacts
+coverage
+.nyc_output
+
+# CI / CD
+.github
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+*.swp
+
+# Docker files themselves
+Dockerfile*
+.dockerignore
+
+# Env files (never bake secrets into images)
+.env
+.env.*
